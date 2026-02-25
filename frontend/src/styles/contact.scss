@@ -1,0 +1,52 @@
+.contact {
+  margin: 80px auto;
+  max-width: 900px;
+  padding: 0 24px;
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    color: #f8f7f7;
+    margin-bottom: 24px;
+  }
+}
+
+.contact-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: #b0b1b3;
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+
+  svg {
+    font-size: 18px;
+  }
+
+  &:hover {
+    background: #e5e7eb;
+    transform: translateY(-2px);
+  }
+
+  &.linkedin {
+    background: #0a66c2;
+    color: white;
+
+    &:hover {
+      background: #004182;
+    }
+  }
+}

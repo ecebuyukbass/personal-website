@@ -1,0 +1,22 @@
+@use "variables" as *;
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background: var(--bg-main);
+  color: var(--text-main);
+}
+
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-main);
+}
+
+a {
+  color: var(--primary);
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--secondary);
+  }
+}

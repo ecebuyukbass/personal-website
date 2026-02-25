@@ -1,0 +1,23 @@
+.home.dark {
+  background-color: #3d1f47;
+}
+
+.home-section {
+  padding: 120px 8vw;
+}
+
+.home-section.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.preview-card{
+    background-color: #a98ab0;
+    color: #402e44;
+    border-radius: 22px;
+    text-align: center;
+    width: 310px;
+    height: 220px;
+    padding: 50px;
+}
